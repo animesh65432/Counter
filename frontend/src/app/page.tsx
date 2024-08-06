@@ -1,5 +1,7 @@
-import Image from "next/image";
-
 export default function Home() {
-  return <div></div>;
+  return (
+    <div className="grid place-content-center h-dvh">
+      <p>just setup the project</p>
+    </div>
+  );
 }
